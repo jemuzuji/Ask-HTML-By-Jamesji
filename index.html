@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link
+    rel="shortcut icon"
+    href="https://images.icon-icons.com/1576/PNG/512/3561851-emoticon-expresion-shocked_107898.png"
+    type="image/x-icon"/>
+
+    <link rel="stylesheet" href="style.css">
+
+
+    <title>ตอบให้ถูกดิ๊!</title>
+</head>
+<body>
+
+    <!-- หน้าแรก -->
+    <div id="mainPage" class="container">
+    <span class="title">ผมเท่มั้ยครับ</span>
+    <img id="mainImage" src="img/doyou.png" alt="Do you?" />
+  
+    <!-- ปุ่มกด -->
+    <div class="button-container">
+        <button
+            id="noButton"
+            class="button"
+            onmouseover="changeImage('img/hm.png')"
+            onmouseout="resetImage()"
+            onclick="handleNoClick()"
+            >
+        ไม่
+        </button>
+        <button
+            id="loveButton"
+            class="button"
+            onmouseover="changeImage('img/pinkping.png')"
+            onmouseout="resetImage()"
+            onclick="showPage('lovePage')"
+        >
+        เท่ก็ได้
+        </button>
+        </div>
+    </div>
+      
+    <!-- หน้ากด รักกกก -->
+    <div id="lovePage" class="container hidden">
+    <h1>แน่นอนเนาะ&nbsp;อิอิ&nbsp;</h1>
+    <img src="img/loveu.png" alt="Love You" />
+    </div>
+
+    <!-- หน้าถ้ายังจะกด No เรื่อยๆ  -->
+    <div id="noPage" class="container hidden">
+    <img src="img/die.png" alt="Die" />
+    </div>
+  
+    <script src="script.js"></script>
+    
+</body>
+</html>

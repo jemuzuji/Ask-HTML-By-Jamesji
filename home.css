@@ -1,0 +1,94 @@
+body { 
+    background-color: #e0f8e0;
+    font-family: sans-serif;
+    src: url('Sarabun-Regular.ttf') format('truetype');
+    padding: 20px;
+}
+
+.contatiner {
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+hr {
+    width: 100px;
+    height: 2px;
+    background-color: aqua;
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+
+img.logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.7);
+}
+
+h1.name {
+    text-transform: uppercase;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+p.title {
+    text-transform: uppercase;
+    font-size: 16px;
+    text-align: center;
+}
+
+span.slogan {
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: rgba(51, 51, 51, 0.7);
+    margin-bottom: 35px;
+    margin-top: 20px;
+}
+
+.button-img {
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px 20px;
+}
+
+p.body{
+    text-transform: uppercase;
+    font-size: 16px;
+    text-align: center;
+}
+
+button.play {
+    cursor: pointer;
+    width: 300px;
+    height: 100px;
+    margin: 0% auto;
+    margin-top: 30px;
+    margin-left: 40%;
+    margin-bottom: 30px;
+    background-color: rgb(0, 255, 17);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.7);
+    box-sizing: content-box;    
+    border: 2cap;
+    border-radius: 50px;
+    color: #ffff;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none ;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+button.play:hover {
+    background-color: rgb(2, 162, 13);
+    color: #ffff;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none ;
+    margin-bottom: 30px;
+}
