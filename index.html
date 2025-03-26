@@ -3,59 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    
     <link
     rel="shortcut icon"
-    href="https://images.icon-icons.com/1576/PNG/512/3561851-emoticon-expresion-shocked_107898.png"
+    href="img/battery-charging.svg"
     type="image/x-icon"/>
 
-    <link rel="stylesheet" href="style.css">
-
-
-    <title>ตอบให้ถูกดิ๊!</title>
+    <link rel="stylesheet" href="home.css">
+    
+    <title>เจมส์อยากให้เพื่อนๆได้เล่น</title>
 </head>
 <body>
+    
+    <div class="container">
+        <img class="logo" src="img/logo.png" alt="">
+        <h1 class="name">สวัสดีครับทุกคน!!</h1>
+        <p class="title">วันนี้ผมมีคำถามมาให้ลองเล่นลองตอบดู</p>
 
-    <!-- หน้าแรก -->
-    <div id="mainPage" class="container">
-    <span class="title">ผมเท่มั้ยครับ</span>
-    <img id="mainImage" src="img/doyou.png" alt="Do you?" />
-  
-    <!-- ปุ่มกด -->
-    <div class="button-container">
-        <button
-            id="noButton"
-            class="button"
-            onmouseover="changeImage('img/hm.png')"
-            onmouseout="resetImage()"
-            onclick="handleNoClick()"
-            >
-        ไม่
-        </button>
-        <button
-            id="loveButton"
-            class="button"
-            onmouseover="changeImage('img/pinkping.png')"
-            onmouseout="resetImage()"
-            onclick="showPage('lovePage')"
-        >
-        เท่ก็ได้
-        </button>
+
+
+
+    <p class="body">ลองกดตอบๆไปดูนะครับ ผิดถูกชั่งมันอย่างไปซีเรียส<br>คำถามมีข้อเดียวชิวๆเลยกดๆไปเป็นยังไงทักมาบอกผมด้วยนะครับ</p>
+        
+        <a href="main.html"><button class="play"><h3 class="tx-button">กดปุ่มเพื่อทดลองเล่น !</h3></button></a>
+    
+    <span class="slogan">MY CONTACT</span>    
+    <div class="social-img">
+            <ul class="button-img">
+                <a href="https://web.facebook.com/profile.php?id=100048423158049" target="_blank">
+                    <img src="img/Facebook.png"width="30" alt=""></a>
+                <a href="https://www.instagram.com/jemuzuji/" target="_blank">
+                    <img src="img/Instagram.png"width="30" alt=""></a>
+                <a href="https://www.tiktok.com/@jemuzuji" target="_blank">
+                    <img src="img/Tiktok.png"width="30" alt=""></a>
+            </ul>
         </div>
     </div>
-      
-    <!-- หน้ากด รักกกก -->
-    <div id="lovePage" class="container hidden">
-    <h1>แน่นอนเนาะ&nbsp;อิอิ&nbsp;</h1>
-    <img src="img/loveu.png" alt="Love You" />
-    </div>
-
-    <!-- หน้าถ้ายังจะกด No เรื่อยๆ  -->
-    <div id="noPage" class="container hidden">
-    <img src="img/die.png" alt="Die" />
-    </div>
-  
-    <script src="script.js"></script>
-    
 </body>
 </html>
